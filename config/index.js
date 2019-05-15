@@ -49,12 +49,12 @@ module.exports = {
 
   build: {
     // Template for index.html
-    index: path.resolve(__dirname, '../saas/index.html'),
+    index: path.resolve(__dirname, '../dist/index.html'),
 
     // Paths3
-    assetsRoot: path.resolve(__dirname, '../saas'),
+    assetsRoot: path.resolve(__dirname, '../dist'),
     assetsSubDirectory: 'static',
-    assetsPublicPath: '/saas/',
+    assetsPublicPath: '/store/',
 
     /**
      * Source Maps

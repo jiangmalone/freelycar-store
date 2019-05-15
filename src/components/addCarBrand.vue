@@ -14,7 +14,7 @@
       <div v-for="item in carBrandList"
            :class="carBrandId===item.id?'brand-list-item choose-brand':'brand-list-item'"
            @click="getCarBrand(item)">
-        <img :src="'/saas/static/images/'+item.brand+'.jpg'" :alt="item.brand">
+        <img :src="'/store/static/images/'+item.brand+'.jpg'" :alt="item.brand">
         <span>{{item.brand}}</span>
       </div>
     </div>
